@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 100000px;
+}
+
+.nav-container {
+  display: flex;
+  height: 78px;
+  background-color: rgb(235, 233, 233);
+  justify-content: space-between;
+  align-items: center;  
+  width: 100%;
+  position: fixed;
+
+}
+
+.logo {
+  color: green;
+  background-color: white;
+  padding: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  height: 78px;
+  align-items: center;
+  font-size: 23px;
+}
+
+.right-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.home-nav, .about-nav, .service-nav, .project-nav {
+  padding: 20px;
+}
+
+.get-a-quote {
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 80px;
+  background-color: lightgreen;
+}
+
+
+
+
+
