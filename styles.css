@@ -18,12 +18,14 @@ body {
 .logo {
   color: green;
   background-color: white;
-  padding: 20px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
-  height: 78px;
+  height: 100%;
   align-items: center;
   font-size: 23px;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }
 
 .right-buttons-container {
@@ -44,7 +46,130 @@ body {
   background-color: lightgreen;
 }
 
+.carousel-header-container {
+  height: 600px;
+  background-color: grey;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  padding-top: 80px;
+}
 
+.numerics-container {
+  height: 300px;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
 
+.about-us-header-container {
+  height: 550px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+}
 
+.our-service-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 15px;
+}
 
+.what-we-are {
+  font-size: 40px;
+  color: green;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.our-service-div {
+  background-color: #3498db; 
+  border-radius: 15px; 
+  padding: 80px;
+  padding-top: 320px;
+  color: #fff; 
+  text-align: center; 
+  font-size: 18px; 
+}
+
+.why-choose-us-container {
+  display:flex;
+  background-color: lightblue;
+  height: 600px;
+}
+
+.heading-why-choose-us-1 {
+  background-color: lightgrey;
+  display: flex;
+  flex: 1;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.picture-why-choose-us-2 {
+  background-color: black;
+  display: flex;
+  flex: 1;
+  color: white;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-a-quote-header-container {
+  display:flex;
+  background-color: lightblue;
+  height: 600px;
+}
+
+.get-a-quote-picture-left {
+  background-color: rgb(255, 137, 137);
+  display: flex;
+  flex: 1;
+  color: white;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-a-quote-form-right {
+  background-color: rgb(237, 70, 70);
+  display: flex;
+  flex: 1;
+  color: white;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-team-header-container {
+  height: 400px;
+  background-color: lightgreen;
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  padding: 15px;
+  padding: 100px;
+}
+
+.team-member-info-container {
+  background-color: #3498db; 
+  border-radius: 15px; 
+  padding: 40px;
+  color: #fff; 
+  text-align: center; 
+  font-size: 18px; 
+  margin-left: 15px;
+  margin-right: 15px;
+}
