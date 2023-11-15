@@ -1,50 +1,97 @@
-body {
+* {
   padding: 0;
   margin: 0;
-  margin-bottom: 100000px;
+  box-sizing: border-box;
 }
 
-.nav-container {
+.background-container {
+  background: url('images/SmartHomePicDraft.webp') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  position: relative;
+}
+
+.header1Text {
+  padding-top: 80vh;
+  font-size: 250px;
+  color: white;
   display: flex;
-  height: 78px;
-  background-color: rgb(235, 233, 233);
-  justify-content: space-between;
-  align-items: center;  
-  width: 100%;
+  text-align: center;
+  justify-content: center;
   position: fixed;
-
-}
-
-.logo {
-  color: green;
-  background-color: white;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  display: flex;
-  height: 100%;
-  align-items: center;
-  font-size: 23px;
+  z-index: 10;
   padding-left: 20px;
-  padding-right: 20px;
-
+  font-family: 'bebas neue';
 }
 
-.right-buttons-container {
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 22px 100px;
+  background: transparent;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  align-items: center;
+  z-index: 100;
+  background-color: #81d08a;
+  opacity: 75%;
 }
 
-.home-nav, .about-nav, .service-nav, .project-nav {
-  padding: 20px;
+
+.logo-nav {
+  font-size: 42px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: arial-black;
 }
 
-.get-a-quote {
-  padding: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 80px;
-  background-color: lightgreen;
+.navbar-container a {
+  position: relative;
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+  font-family: arial-black;
 }
+
+.navbar-container a::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: .3s;
+}
+
+.navbar-container a:hover::before {
+  width: 100%;
+}
+
+
+.header2 {
+  background-color: black;
+  height: 100vh;
+  z-index: 20;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
 
 .carousel-header-container {
   height: 600px;
